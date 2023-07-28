@@ -1,0 +1,50 @@
+body {
+   
+}
+
+.source-text {
+    font-family:  BIZ UDPMincho ;
+}
+
+:root[data-theme="dark"] {
+    --text-color: #ffffff;
+    --background-color: #0d111;
+    --accent-color: #8181C1;
+    --accent-color-lighter: #416265;
+    --tag-pronunciation-dictionary-background-color: #2d3746;
+    --tag-dictionary-background-color: #8181C1;
+    --tag-frequency-background-color: #ff726f;
+    --tag-default-background-color: #51647E;
+    --tag-name-background-color: #3d4993;
+    --tag-expression-background-color: #4857AE;
+    --tag-popular-background-color: #232d5a;
+    --tag-frequent-background-color: #303e7c;
+    --tag-archaism-background-color: #533642;
+    --tag-part-of-speech-background-color: #303e7c;
+    --input-background-color: #24292f;
+    --link-color: #E5E9F0;
+}
+
+    text-indent: -2em;
+    padding-left: 2em;
+}
+
+:not(ol[data-count='1']) > li.pronunciation-group[data-dictionary='NHK'] {
+    display: none;
+}
+ol.pronunciation-group-list[data-count='2'] {
+    list-style: none;
+    padding: 0;
+}
+
+.definition-list li.definition-item[data-dictionary='JMdict (English)'] .gloss-list {
+    opacity: 0;
+}
+.definition-list:has(li.definition-item[data-dictionary='JMdict (English)']:hover) .gloss-list {
+    opacity: 1;
+}
+
+
+ruby rt {
+    user-select: none;
+}
