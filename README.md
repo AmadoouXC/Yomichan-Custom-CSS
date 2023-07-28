@@ -1,7 +1,7 @@
-# Yomichan-Custom-CSS
+# Yomichan-Custom-CSS-Template
 
 ## Explanation
-A small custom CSS file for the japanese pop-up dictionary Yomichan, different color-coding for web-dictionaries and automated dictionary preference settings. Very easy to customize to your liking
+A small custom CSS file for the japanese pop-up dictionary Yomichan, you can customize all parts of the pop-up to your liking + you'll be able to choose which dictionary should be preffered
 
 ## Before and After
 ![Before1](https://github.com/AmadoouXC/Yomichan-Custom-CSS/assets/140725234/1eb10df5-da52-4642-843e-21cf7436c30d)
